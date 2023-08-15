@@ -19,6 +19,9 @@ write a function to detect if the linked list has a cycle.
 
 3. Create a dynamic array using a `struct` as a pointer in C. Make it such that if at least 3/4th the capacity is full-filled, double the size of the array. Similarly, if at most 1/4th the capacity is fullfilled, reduce capacity by half. Despite the above, there must always exist at least four entries in the array. Write two functions, `vector_push(vector *v, int a)` to add `a` at the end of the vector and `vector_pop(vector *v)` to return and remove the last element of the vector.
 
+### Project 02: Simple Git Clone
+Since this is a more substantial project, the code for it will be available at (another repo)[https://github.com/ThomasSpradling/git-clone]. The basic concept involves the building of a small clone of git, aptly named "pit", that supports tracking, committing, and branching. Checkout that repository for a more full description and the source code.
+
 ### Project 03: Learning MIPS Assembly Programming
 Much like project 01, this project will primarily focus on learning to program via a few illustrative problems. As a cheathseet for MIPS, I am used this convenient ("Green Sheet")[https://inst.eecs.berkeley.edu//~cs61c/resources/MIPS_Green_Sheet.pdf]. In each problem below, I'm compiling using (SPIM)[https://formulae.brew.sh/formula/spim], which is a MIPS simulator. To use, you would run `spim` in the terminal, which will start the simulator. One can then use `load "example.s"` to load an assembly file `example.s` which can be ran using the `run` SPIM command. Below are the main problems I did:
 0. Compute and print `6 + 7` in MIPS.
@@ -68,6 +71,5 @@ int fib(int n, int* cache) {
 
 ## Upcoming
 - [x] ~~Learning C Programming~~
-- [ ] Simple Git
+- [ ] Simple Git Clone
 - [ ] Learning MIPS Assembly Programming
-- [ ] Assembler
