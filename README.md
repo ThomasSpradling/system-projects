@@ -17,5 +17,5 @@ write a function to detect if the linked list has a cycle.
 3. Create a dynamic array using a `struct` as a pointer in C. Make it such that if at least 3/4th the capacity is full-filled, double the size of the array. Similarly, if at most 1/4th the capacity is fullfilled, reduce capacity by half. Despite the above, there must always exist at least four entries in the array. Write two functions, `vector_push(vector *v, int a)` to add `a` at the end of the vector and `vector_pop(vector *v)` to return and remove the last element of the vector.
 
 ## Upcoming
-- [x] Learning C Programming
+- [x] ~~Learning C Programming~~
 - [ ] Learning MIPS Assembly Programming
