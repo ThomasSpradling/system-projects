@@ -1,5 +1,6 @@
 # System Projects
-This repository consists up of a few small projects/problems I'm working on as I read through [Computer Organization and Design](https://www.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269) as well as some parts of the online lectures under [CS61C] (https://inst.eecs.berkeley.edu//~cs61c/sp15/) whose lectures are [on the Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_?tab=collection). For each project I work on here, I'll give a brief description of the project as well as anything I learned from its completion.
+This repository consists up of a few small projects/problems I'm working on as I read through (Computer Organization and Design)[https://www.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269] as well as some parts of the online lectures under 
+(CS61C)[https://inst.eecs.berkeley.edu//~cs61c/sp15/] whose lectures are (on the Internet Archive)[https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_?tab=collection]. For each project I work on here, I'll give a brief description of the project as well as anything I learned from its completion.
 
 ## Projects
 
