@@ -76,7 +76,13 @@ int fib(int n, int* cache) {
 }
 ```
 
+### Project 04: MIPS Assembler and Linker
+*Languages: C, Assembly (MIPS)*
+
+Similar to the git project above, this project is substantial enough to deserve [its own repository](https://github.com/ThomasSpradling/assembler-and-linker). The basic concept here will be to build an assembly in the C programming language that converts the `.text` code into the MIPS architecture instructions in two passes. After that a linker will built using assembly itself to link the various components together.
+
 ## Upcoming
 - [x] ~~Learning C Programming~~
-- [ ] Simple Git Clone
+- [x] ~~Simple Git Clone~~
 - [x] ~~Learning MIPS Assembly Programming~~
+- [ ] MIPS Assembler and Linker
