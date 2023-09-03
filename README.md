@@ -81,38 +81,10 @@ int fib(int n, int* cache) {
 
 Similar to the git project above, this project is substantial enough to deserve [its own repository](https://github.com/ThomasSpradling/assembler-and-linker). The basic concept here will be to build an assembly in the C programming language that converts the `.text` code into the MIPS architecture instructions in two passes. After that a linker will built using assembly itself to link the various components together.
 
-### Project 05: Learning Logism
-*Tools: Logism*
-
-Logism is a platform used for building and testing digital circuits. This project is used to build a few simple circuits, so I can eventually consider more complex constructions (see project 6).
-
-0. Use Logism to build, using only AND, OR, and NOT, the following circuits:
-  a. NAND
-  b. NOR
-  c. XOR
-  d. 2-to-1 MUX
-  e. 4-to-1 MUX
-1. Using Logism, build an accumulating adder that is initialized at `00` and increments at each clock cycle. You may use any blocks in Logism. *Hint: Separate combinational logic from sequential logic.*
-2. Using splitters in Logism, write a circuit that takes in an 8-bit number `A` and a 4-bit number `B` and rotates `A` to the right by `B` bits.
-*Example:*
-**Input**: A = 0b10110101011**10011**, B = 0b0101
-**Output**: R = 0b**10011**10110101011
-You are not allowed to use Logism shifters but may use any other Logism functionalities.
-3. Implement the ALU operations that each take in 2 32-bit inputs and output 32 bits:
-  a. Shift left logical
-  b. Shift right logical
-  c. Shift right arithmetic
-  d. Rotate left
-  e. Rotate right
-  f. And
-  g. Or
-  h. XOR
-
 
 ## Upcoming
 - [x] ~~Learning C Programming~~
 - [x] ~~Simple Git Clone~~
 - [x] ~~Learning MIPS Assembly Programming~~
 - [ ] MIPS Assembler and Linker
-- [ ] Learning Logism
-- [ ] Two-cycle CPU
+- [ ] Learning OpenMP
